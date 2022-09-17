@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  background: url("Images/kai-pilger-Ef6iL87-vOA-unsplash.jpg");
+  background-size: cover;
+}
+.main {
+  box-sizing: border-box;
+
+  height: 70vh;
+
+  border-radius: 76% 24% 80% 20% / 69% 87% 13% 31%;
+  background: linear-gradient(
+    to bottom,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  opacity: 0.8;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 10rem;
+  font-weight: bolder;
+}
